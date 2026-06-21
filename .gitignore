@@ -1,0 +1,17 @@
+# Virtual environments
+gsm_env/
+.gsm_env/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Jupyter checkpoints
+*/.ipynb_checkpoints/*
+
+# OS files
+.DS_Store
+Thumbs.db
