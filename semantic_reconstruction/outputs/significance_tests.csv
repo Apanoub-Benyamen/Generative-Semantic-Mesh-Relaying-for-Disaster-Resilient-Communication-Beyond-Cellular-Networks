@@ -1,0 +1,16 @@
+pipeline,vs,metric,W,p,sig,cohens_d
+B_LLaVA_SDXL,A_Baseline,ssim,9769.0,6e-05,***,0.2506
+B_LLaVA_SDXL,A_Baseline,psnr,10210.5,0.00033,***,0.2394
+B_LLaVA_SDXL,A_Baseline,clip_i,8529.5,0.0,***,0.3625
+B_LLaVA_SDXL,A_Baseline,cmsc,2174.5,0.0,***,1.0062
+B_LLaVA_SDXL,A_Baseline,lpips,13782.5,0.84967,ns,-0.0521
+C_LLaVA_FLUX,A_Baseline,ssim,9304.0,1e-05,***,-0.2908
+C_LLaVA_FLUX,A_Baseline,psnr,7494.0,0.0,***,0.4337
+C_LLaVA_FLUX,A_Baseline,clip_i,4143.5,0.0,***,0.7666
+C_LLaVA_FLUX,A_Baseline,cmsc,4209.5,0.0,***,0.7215
+C_LLaVA_FLUX,A_Baseline,lpips,13824.0,0.88076,ns,-0.0497
+D_ControlNet,A_Baseline,ssim,2631.0,0.0,***,0.9159
+D_ControlNet,A_Baseline,psnr,2175.0,0.0,***,0.9887
+D_ControlNet,A_Baseline,clip_i,6115.5,0.0,***,0.5671
+D_ControlNet,A_Baseline,cmsc,6240.0,0.0,***,0.5175
+D_ControlNet,A_Baseline,lpips,15.0,0.0,***,-2.4159

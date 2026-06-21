@@ -1,0 +1,2 @@
+img_id,pipeline,caption_bytes,ssim,psnr,lpips,clip_i,clip_t_orig,cmsc,safe
+1,C_LLaVA_FLUX,0,38.84,9.926,0.8333,63.672,13.184,16.895,False

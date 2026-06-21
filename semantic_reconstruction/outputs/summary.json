@@ -1,0 +1,58 @@
+{
+  "A_Baseline": {
+    "n": 236,
+    "ssim_mean": 21.027,
+    "ssim_std": 8.215,
+    "psnr_mean": 9.449,
+    "psnr_std": 1.274,
+    "clip_i_mean": 65.175,
+    "clip_i_std": 13.218,
+    "cmsc_mean": 24.374,
+    "cmsc_std": 2.822,
+    "ohr": 87.29,
+    "lpips_mean": 0.817,
+    "lpips_std": 0.0697
+  },
+  "B_LLaVA_SDXL": {
+    "n": 236,
+    "ssim_mean": 22.024,
+    "ssim_std": 8.393,
+    "psnr_mean": 9.705,
+    "psnr_std": 1.304,
+    "clip_i_mean": 69.817,
+    "clip_i_std": 10.664,
+    "cmsc_mean": 27.954,
+    "cmsc_std": 2.509,
+    "ohr": 53.81,
+    "lpips_mean": 0.8145,
+    "lpips_std": 0.0596
+  },
+  "C_LLaVA_FLUX": {
+    "n": 236,
+    "ssim_mean": 19.1,
+    "ssim_std": 9.709,
+    "psnr_mean": 10.037,
+    "psnr_std": 1.425,
+    "clip_i_mean": 74.984,
+    "clip_i_std": 10.739,
+    "cmsc_mean": 26.934,
+    "cmsc_std": 2.271,
+    "ohr": 69.07,
+    "lpips_mean": 0.8138,
+    "lpips_std": 0.0703
+  },
+  "D_ControlNet": {
+    "n": 236,
+    "ssim_mean": 26.723,
+    "ssim_std": 11.67,
+    "psnr_mean": 10.976,
+    "psnr_std": 1.835,
+    "clip_i_mean": 72.411,
+    "clip_i_std": 10.063,
+    "cmsc_mean": 26.619,
+    "cmsc_std": 3.631,
+    "ohr": 59.32,
+    "lpips_mean": 0.6318,
+    "lpips_std": 0.1002
+  }
+}

@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Wilcoxon signed-rank test results comparing each pipeline to Baseline A. Cohen's d indicates effect size; positive d means improvement over baseline. Significance codes: *** p<0.001, ** p<0.01, * p<0.05, ns = not significant.}
+\label{tab:significance}
+\begin{tabular}{llrrlr}
+\toprule
+Pipeline & Metric & W-stat & p-value & Sig. & Cohen's d \\
+\midrule
+B: LLaVA+SDXL & ssim & 9769.000000 & 0.000060 & *** & 0.250600 \\
+B: LLaVA+SDXL & psnr & 10210.500000 & 0.000330 & *** & 0.239400 \\
+B: LLaVA+SDXL & clip\_i & 8529.500000 & 0.000000 & *** & 0.362500 \\
+B: LLaVA+SDXL & cmsc & 2174.500000 & 0.000000 & *** & 1.006200 \\
+B: LLaVA+SDXL & lpips & 13782.500000 & 0.849670 & ns & -0.052100 \\
+C: LLaVA+FLUX & ssim & 9304.000000 & 0.000010 & *** & -0.290800 \\
+C: LLaVA+FLUX & psnr & 7494.000000 & 0.000000 & *** & 0.433700 \\
+C: LLaVA+FLUX & clip\_i & 4143.500000 & 0.000000 & *** & 0.766600 \\
+C: LLaVA+FLUX & cmsc & 4209.500000 & 0.000000 & *** & 0.721500 \\
+C: LLaVA+FLUX & lpips & 13824.000000 & 0.880760 & ns & -0.049700 \\
+D: LLaVA+ControlNet & ssim & 2631.000000 & 0.000000 & *** & 0.915900 \\
+D: LLaVA+ControlNet & psnr & 2175.000000 & 0.000000 & *** & 0.988700 \\
+D: LLaVA+ControlNet & clip\_i & 6115.500000 & 0.000000 & *** & 0.567100 \\
+D: LLaVA+ControlNet & cmsc & 6240.000000 & 0.000000 & *** & 0.517500 \\
+D: LLaVA+ControlNet & lpips & 15.000000 & 0.000000 & *** & -2.415900 \\
+\bottomrule
+\end{tabular}
+\end{table}

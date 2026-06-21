@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Aggregate pipeline comparison across all images (N=236). OHR = Object Hallucination Rate at tau\_safe=28\%.}
+\label{tab:pipeline_comparison}
+\begin{tabular}{lllllll}
+\toprule
+Pipeline & SSIM\% & PSNR dB & CLIP-I\% & CMSC\% & LPIPS & OHR\% \\
+\midrule
+A: BLIP-2+SDXL & 21.03+/-8.22 & 9.45+/-1.27 & 65.17+/-13.22 & 24.37+/-2.82 & 0.8170+/-0.0697 & 87.3 \\
+B: LLaVA+SDXL & 22.02+/-8.39 & 9.70+/-1.30 & 69.82+/-10.66 & 27.95+/-2.51 & 0.8145+/-0.0596 & 53.8 \\
+C: LLaVA+FLUX & 19.10+/-9.71 & 10.04+/-1.43 & 74.98+/-10.74 & 26.93+/-2.27 & 0.8138+/-0.0703 & 69.1 \\
+D: LLaVA+ControlNet & 26.72+/-11.67 & 10.98+/-1.84 & 72.41+/-10.06 & 26.62+/-3.63 & 0.6318+/-0.1002 & 59.3 \\
+\bottomrule
+\end{tabular}
+\end{table}
