@@ -3,15 +3,22 @@ gsm_env/
 .gsm_env/
 .venv/
 venv/
+env/
 
 # Python cache
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+*.pyo
+*.pyd
 
 # Jupyter checkpoints
+.ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
